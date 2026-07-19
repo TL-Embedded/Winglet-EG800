@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "332623d6-c22a-48da-966b-0d541566aa2d")
 	(paper "A4")
 	(title_block
 		(title "Winglet EG800")
-		(date "2026-03-03")
-		(rev "v1.0")
+		(date "2026-07-03")
+		(rev "v1.2")
 		(company "TL Embedded")
 	)
 	(lib_symbols
@@ -15,8 +15,12 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "N"
 				(at 0.508 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -25,6 +29,8 @@
 			)
 			(property "Value" "QR 5mm"
 				(at 4.572 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -33,29 +39,35 @@
 			)
 			(property "Footprint" "N_NonPart:QR_5mm_JLC"
 				(at 4.826 -7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at -0.635 -0.635 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "QR 8mm JLCPCB"
 				(at 4.572 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "QR_5mm_JLC_0_1"
@@ -204,8 +216,12 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "N"
 				(at 0 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -214,6 +230,8 @@
 			)
 			(property "Value" "ToolingHole"
 				(at 0 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -222,29 +240,35 @@
 			)
 			(property "Footprint" "N_NonPart:ToolingHole_1mm"
 				(at 0.254 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "TOOLING HOLE 1MM"
 				(at 0 -6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "ToolingHole_1mm_1_1"
@@ -447,14 +471,18 @@
 		(lib_id "N_NonPart:ToolingHole_1mm")
 		(at 50.8 124.46 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7224300c-fc3e-46e3-883c-f270761713ae")
 		(property "Reference" "N4"
 			(at 53.34 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -464,6 +492,8 @@
 		)
 		(property "Value" "ToolingHole"
 			(at 53.34 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -473,29 +503,35 @@
 		)
 		(property "Footprint" "N_NonPart:ToolingHole_1mm"
 			(at 51.054 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 50.8 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "TOOLING HOLE 1MM"
 			(at 50.8 131.318 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -511,14 +547,18 @@
 		(lib_id "N_NonPart:QR_5mm_JLC")
 		(at 49.53 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bd67176-40a9-4030-b52d-a1a795606aed")
 		(property "Reference" "N1"
 			(at 59.69 132.7149 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,6 +568,8 @@
 		)
 		(property "Value" "QR 5mm"
 			(at 59.69 135.2549 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -537,33 +579,39 @@
 		)
 		(property "Footprint" "N_NonPart:QR_5mm_JLC"
 			(at 54.356 145.796 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 48.895 139.065 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "QR 8mm JLCPCB"
 			(at 54.102 143.764 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "Winglet-EG800"
 				(path "/332623d6-c22a-48da-966b-0d541566aa2d"
 					(reference "N1")
 					(unit 1)
@@ -575,14 +623,18 @@
 		(lib_id "N_NonPart:ToolingHole_1mm")
 		(at 50.8 119.38 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8231666-44cd-4daf-8748-6ce389e1d131")
 		(property "Reference" "N3"
 			(at 53.34 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -592,6 +644,8 @@
 		)
 		(property "Value" "ToolingHole"
 			(at 53.34 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,29 +655,35 @@
 		)
 		(property "Footprint" "N_NonPart:ToolingHole_1mm"
 			(at 51.054 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 50.8 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "TOOLING HOLE 1MM"
 			(at 50.8 126.238 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -639,14 +699,18 @@
 		(lib_id "N_NonPart:ToolingHole_1mm")
 		(at 50.8 114.3 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f22f64b8-554c-49a5-9291-a3eb8ef69657")
 		(property "Reference" "N2"
 			(at 53.34 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,6 +720,8 @@
 		)
 		(property "Value" "ToolingHole"
 			(at 53.34 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -665,33 +731,39 @@
 		)
 		(property "Footprint" "N_NonPart:ToolingHole_1mm"
 			(at 51.054 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 50.8 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "TOOLING HOLE 1MM"
 			(at 50.8 121.158 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project ""
+			(project "Winglet-EG800"
 				(path "/332623d6-c22a-48da-966b-0d541566aa2d"
 					(reference "N2")
 					(unit 1)
@@ -712,11 +784,13 @@
 			(type solid)
 		)
 		(fill
-			(color 175 255 191 1.0000)
+			(color 175 255 191 1)
 		)
 		(uuid "510bfa09-7e06-4be1-9831-b5d481ba772b")
 		(property "Sheetname" "Connector"
 			(at 38.1 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -726,6 +800,8 @@
 		)
 		(property "Sheetfile" "connector.kicad_sch"
 			(at 38.1 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +889,7 @@
 				(justify right)
 			)
 		)
-		(pin "MODEM_PSM_IND" input
+		(pin "MODEM_DCD" input
 			(at 63.5 46.99 0)
 			(uuid "21cfc90b-9ba7-4d99-afc2-cf3ef03a70b2")
 			(effects
@@ -823,7 +899,7 @@
 				(justify right)
 			)
 		)
-		(pin "MODEM_PSM_INT" output
+		(pin "MODEM_DTR" output
 			(at 63.5 49.53 0)
 			(uuid "203c56eb-a079-43b3-aa74-73f04730c54a")
 			(effects
@@ -894,11 +970,13 @@
 			(type solid)
 		)
 		(fill
-			(color 175 255 191 1.0000)
+			(color 175 255 191 1)
 		)
 		(uuid "8e359055-7cfc-4b97-a20a-120bbd795961")
 		(property "Sheetname" "Modem"
 			(at 152.4 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,6 +986,8 @@
 		)
 		(property "Sheetfile" "modem.kicad_sch"
 			(at 152.4 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1135,7 @@
 				(justify left)
 			)
 		)
-		(pin "MODEM_PSM_IND" output
+		(pin "MODEM_DCD" output
 			(at 152.4 46.99 180)
 			(uuid "8f90df61-97f0-4c5d-b1d0-d5cbf7e956b9")
 			(effects
@@ -1065,7 +1145,7 @@
 				(justify left)
 			)
 		)
-		(pin "MODEM_PSM_INT" input
+		(pin "MODEM_DTR" input
 			(at 152.4 49.53 180)
 			(uuid "41598d0d-2564-44ee-a990-57dd24538198")
 			(effects
@@ -1096,11 +1176,13 @@
 			(type solid)
 		)
 		(fill
-			(color 175 255 191 1.0000)
+			(color 175 255 191 1)
 		)
 		(uuid "f3f940f5-dcec-4792-bd6b-0fb823198a56")
 		(property "Sheetname" "Memory"
 			(at 88.9 85.6484 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,6 +1192,8 @@
 		)
 		(property "Sheetfile" "memory.kicad_sch"
 			(at 88.9 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
