@@ -48,6 +48,10 @@ class Carrier():
     def write_eeprom(self, text: str):
         self.scpi.write(f"PROM:WRITE \"{text}\"")
 
+    def detect_i2c(self, addr: int):
+        result = self.scpi.query(f"IIC:DET {addr}")
+        return result == "ON"
+
     def enable_uart(self, port: int, enable: bool, baud: int = 115200, swap: bool = False):
         if enable:
             self.scpi.write(f"UART{port}:BAUD {baud}")

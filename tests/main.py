@@ -46,6 +46,7 @@ def main():
         runner.step("Detect EEPROM").operation(lambda: dev.detect_eeprom()).run()
         runner.step("Write EEPROM").operation(lambda: dev.write_eeprom("EG800Q")).run()
         runner.step("Read EEPROM").measure(lambda: dev.read_eeprom()).equals("EG800Q").run()
+        runner.step("Detect PCA9536").measure(lambda: dev.detect_i2c(0x41)).equals(True).run()
         runner.step("Enable uart").operation(lambda: dev.enable_uart(1, True, 115200)).run()
 
         def step_wake_modem():
